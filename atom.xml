@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>MyCodingWorld</title>
+  <icon>http://example.com/icon.png</icon>
+  
+  <link href="http://example.com/atom.xml" rel="self"/>
+  
+  <link href="http://example.com/"/>
+  <updated>2021-12-25T15:08:53.488Z</updated>
+  <id>http://example.com/</id>
+  
+  <author>
+    <name>Jasonkidd</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>hexo+github博客构建</title>
+    <link href="http://example.com/2021/12/25/hexo%E5%8D%9A%E5%AE%A2%E6%9E%84%E5%BB%BA/"/>
+    <id>http://example.com/2021/12/25/hexo%E5%8D%9A%E5%AE%A2%E6%9E%84%E5%BB%BA/</id>
+    <published>2021-12-25T12:17:23.000Z</published>
+    <updated>2021-12-25T15:08:53.488Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;hr&gt;
+&lt;h1 id=&quot;hexo博客&quot;&gt;&lt;a href=&quot;#hexo博客&quot; class=&quot;headerlink&quot; title=&quot;hexo博客&quot;&gt;&lt;/a&gt;hexo博客&lt;/h1&gt;&lt;h2 id=&quot;windows版&quot;&gt;&lt;a href=&quot;#windows版&quot;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://example.com/2021/12/25/hello-world/"/>
+    <id>http://example.com/2021/12/25/hello-world/</id>
+    <published>2021-12-25T11:50:59.179Z</published>
+    <updated>2021-12-25T12:24:48.901Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
