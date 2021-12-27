@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-12-25T15:08:53.488Z</updated>
+  <updated>2021-12-27T01:36:42.958Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://example.com/2021/12/25/hexo%E5%8D%9A%E5%AE%A2%E6%9E%84%E5%BB%BA/"/>
     <id>http://example.com/2021/12/25/hexo%E5%8D%9A%E5%AE%A2%E6%9E%84%E5%BB%BA/</id>
     <published>2021-12-25T12:17:23.000Z</published>
-    <updated>2021-12-25T15:08:53.488Z</updated>
+    <updated>2021-12-27T01:36:42.958Z</updated>
     
     
       
@@ -35,6 +35,10 @@
     
     
     
+    <category term="hexo+github博客构建" scheme="http://example.com/categories/hexo-github%E5%8D%9A%E5%AE%A2%E6%9E%84%E5%BB%BA/"/>
+    
+    
+    <category term="Hexo" scheme="http://example.com/tags/Hexo/"/>
     
   </entry>
   
@@ -43,7 +47,7 @@
     <link href="http://example.com/2021/12/25/hello-world/"/>
     <id>http://example.com/2021/12/25/hello-world/</id>
     <published>2021-12-25T11:50:59.179Z</published>
-    <updated>2021-12-25T12:24:48.901Z</updated>
+    <updated>2021-12-27T01:36:56.477Z</updated>
     
     
       
@@ -56,6 +60,10 @@
     
     
     
+    <category term="Hello World" scheme="http://example.com/categories/Hello-World/"/>
+    
+    
+    <category term="Hexo" scheme="http://example.com/tags/Hexo/"/>
     
   </entry>
   
