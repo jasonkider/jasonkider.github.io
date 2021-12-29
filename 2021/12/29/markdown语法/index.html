@@ -11,6 +11,11 @@
   
   <title>
     
+      markdown语法 
+      
+      
+      |
+    
      MyCodingWorld
   </title>
 
@@ -101,82 +106,124 @@
 
 
       <div class="flex-container">
-        <div class="container index">
-  <div class="post-list">
-    <!-- 遍历渲染文章 -->
-    
-      <div class="post-item" title="markdown语法">
-        <div class="time-m-d">2021-12-29</div>
-        <div class="title">
-          <a href="/2021/12/29/markdown%E8%AF%AD%E6%B3%95/">
-            
-              
-                <span>markdown语法</span>
-              
-            
-          </a>
-        </div>
+        <!-- 文章详情页，展示文章具体内容，url形式：https://yoursite/文章标题/ -->
+<!-- 同时为「标签tag」，「朋友friend」，「分类categories」，「关于about」页面的承载页面，具体展示取决于page.type -->
+
+<!-- LaTex Display -->
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+</script>
+<script>
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']]
+  }
+};
+</script>
+
+
+
+  
+
+  
+
+  
+
+  
+  <!-- 文章内容页 url形式：https://yoursite/文章标题/ -->
+  <div class="container post-details" id="post-details">
+    <div class="post-content">
+      <div class="post-title">markdown语法</div>
+      <div class="post-attach">
+        <span class="post-pubtime">
+          <i class="iconfont icon-updatetime" title="更新时间"></i>
+          2021-12-29 17:39:37
+        </span>
+        
+              <span class="post-tags">
+                <i class="iconfont icon-tags" title="タグ"></i>
+                
+                <span class="span--tag">
+                  <a href="/tags/markdown/" title="markdown">
+                    <b>#</b> markdown
+                  </a>
+                </span>
+                
+              </span>
+          
       </div>
-    
-      <div class="post-item" title="java学习笔记">
-        <div class="time-m-d">2021-12-29</div>
-        <div class="title">
-          <a href="/2021/12/29/java%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">
-            
-              
-                <span>java学习笔记</span>
-              
-            
-          </a>
-        </div>
+      <div class="markdown-body">
+        <hr>
+<p>#Markdown 教程</p>
+<p>##1.标题</p>
+<p>##2.段落</p>
+<h2 id="3-列表"><a href="#3-列表" class="headerlink" title="3.列表"></a>3.列表</h2><h2 id="4-Markdown-区块"><a href="#4-Markdown-区块" class="headerlink" title="4.Markdown 区块"></a>4.Markdown 区块</h2><h2 id="5-Markdown-代码"><a href="#5-Markdown-代码" class="headerlink" title="5.Markdown 代码"></a>5.Markdown 代码</h2><h2 id="6-高级链接"><a href="#6-高级链接" class="headerlink" title="6.高级链接"></a>6.高级链接</h2><h2 id="7-Markdown-图片"><a href="#7-Markdown-图片" class="headerlink" title="7.Markdown 图片"></a>7.Markdown 图片</h2><h2 id="8-Markdown-表格"><a href="#8-Markdown-表格" class="headerlink" title="8.Markdown 表格"></a>8.Markdown 表格</h2><p>##9.Markdown 高级技巧</p>
+
       </div>
-    
-      <div class="post-item" title="常用IDE快捷键(windows)">
-        <div class="time-m-d">2021-12-27</div>
-        <div class="title">
-          <a href="/2021/12/27/%E5%B8%B8%E7%94%A8IDE%E5%BF%AB%E6%8D%B7%E9%94%AE/">
+      
+        <div class="prev-or-next">
+          <div class="post-foot-next">
             
-              
-                <span>常用IDE快捷键(windows)</span>
-              
+              <a href="/2021/12/29/java%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" target="_self">
+                <i class="iconfont icon-chevronleft"></i>
+                <span>戻る</span>
+              </a>
             
-          </a>
+          </div>
+          <div class="post-attach">
+            <span class="post-pubtime">
+              <i class="iconfont icon-updatetime" title="更新时间"></i>
+              2021-12-29 17:39:37
+            </span>
+            
+                  <span class="post-tags">
+                    <i class="iconfont icon-tags" title="タグ"></i>
+                    
+                    <span class="span--tag">
+                      <a href="/tags/markdown/" title="markdown">
+                        <b>#</b> markdown
+                      </a>
+                    </span>
+                    
+                  </span>
+              
+          </div>
+          <div class="post-foot-prev">
+            
+          </div>
         </div>
-      </div>
+      
+    </div>
     
-      <div class="post-item" title="hexo+github博客构建">
-        <div class="time-m-d">2021-12-25</div>
-        <div class="title">
-          <a href="/2021/12/25/hexo%E5%8D%9A%E5%AE%A2%E6%9E%84%E5%BB%BA/">
-            
-              
-                <span>hexo+github博客构建</span>
-              
-            
-          </a>
-        </div>
-      </div>
+  <div id="btn-catalog" class="btn-catalog">
+    <i class="iconfont icon-catalog"></i>
+  </div>
+  <div class="post-catalog hidden" id="catalog">
+    <div class="title">リスト</div>
+    <div class="catalog-content">
+      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#3-%E5%88%97%E8%A1%A8"><span class="toc-text">3.列表</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#4-Markdown-%E5%8C%BA%E5%9D%97"><span class="toc-text">4.Markdown 区块</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#5-Markdown-%E4%BB%A3%E7%A0%81"><span class="toc-text">5.Markdown 代码</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#6-%E9%AB%98%E7%BA%A7%E9%93%BE%E6%8E%A5"><span class="toc-text">6.高级链接</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#7-Markdown-%E5%9B%BE%E7%89%87"><span class="toc-text">7.Markdown 图片</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#8-Markdown-%E8%A1%A8%E6%A0%BC"><span class="toc-text">8.Markdown 表格</span></a></li></ol>
+    </div>
+  </div>
+
+  
+<script src="/js/catalog.js"></script>
+
+
+
+
     
-      <div class="post-item" title="Hello World">
-        <div class="time-m-d">2021-12-25</div>
-        <div class="title">
-          <a href="/2021/12/25/hello-world/">
-            
-              
-                <span>Hello World</span>
-              
-            
-          </a>
-        </div>
+      <div class="comments-container">
+        
+
+
+
+
+
       </div>
     
   </div>
-  <nav class="post-navigation">
-    
-    <span class="page-num">1 / 1</span>
-    
-  </nav>
-</div>
+
 
         <div class="footer">
   <div class="social">
@@ -463,6 +510,24 @@
 
 
         
+  
+    <div class="share-icon tools-bar-item">
+      <a href="javascript: void(0)" id="share-icon">
+        <i class="iconfont iconshare"></i>
+      </a>
+      <div class="share-content hidden">
+        
+          <a class="share-item" href="https://twitter.com/intent/tweet?text=' + markdown%E8%AF%AD%E6%B3%95 + '&url=' + http%3A%2F%2Fexample.com%2F2021%2F12%2F29%2Fmarkdown%25E8%25AF%25AD%25E6%25B3%2595%2F + '" target="_blank" title="Twitter">
+            <i class="iconfont icon-twitter"></i>
+          </a>
+        
+        
+          <a class="share-item" href="https://www.facebook.com/sharer.php?u=http://example.com/2021/12/29/markdown%E8%AF%AD%E6%B3%95/" target="_blank" title="Facebook">
+            <i class="iconfont icon-facebooksquare"></i>
+          </a>
+        
+      </div>
+    </div>
   
   
 <script src="/js/shares.js"></script>
