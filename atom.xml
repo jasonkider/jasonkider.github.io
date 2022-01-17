@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-01-17T06:01:15.973Z</updated>
+  <updated>2022-01-17T06:14:11.528Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,18 +17,147 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>日语</title>
+    <link href="http://example.com/2022/01/17/%E6%97%A5%E8%AF%AD/"/>
+    <id>http://example.com/2022/01/17/%E6%97%A5%E8%AF%AD/</id>
+    <published>2022-01-17T06:11:51.000Z</published>
+    <updated>2022-01-17T06:14:11.528Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;hr&gt;
+&lt;h1 id=&quot;日语&quot;&gt;&lt;a href=&quot;#日语&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="日本語" scheme="http://example.com/tags/%E6%97%A5%E6%9C%AC%E8%AA%9E/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>英语</title>
+    <link href="http://example.com/2022/01/17/%E8%8B%B1%E8%AF%AD/"/>
+    <id>http://example.com/2022/01/17/%E8%8B%B1%E8%AF%AD/</id>
+    <published>2022-01-17T06:11:30.000Z</published>
+    <updated>2022-01-17T06:12:27.951Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;hr&gt;
+&lt;h1 id=&quot;英语&quot;&gt;&lt;a href=&quot;#英语&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="英语" scheme="http://example.com/categories/%E8%8B%B1%E8%AF%AD/"/>
+    
+    
+    <category term="English" scheme="http://example.com/tags/English/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>计算机组成原理</title>
+    <link href="http://example.com/2022/01/17/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/"/>
+    <id>http://example.com/2022/01/17/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/</id>
+    <published>2022-01-17T06:08:17.000Z</published>
+    <updated>2022-01-17T06:10:58.192Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;hr&gt;
+&lt;h1 id=&quot;计算机组成原理&quot;&gt;&lt;a href=&quot;#计算机组成原理&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="计算机组成原理" scheme="http://example.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/"/>
+    
+    
+    <category term="计算机基础" scheme="http://example.com/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>操作系统</title>
+    <link href="http://example.com/2022/01/17/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/"/>
+    <id>http://example.com/2022/01/17/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/</id>
+    <published>2022-01-17T06:07:46.000Z</published>
+    <updated>2022-01-17T06:10:20.034Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;hr&gt;
+&lt;h1 id=&quot;操作系统&quot;&gt;&lt;a href=&quot;#操作系统&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="操作系统" scheme="http://example.com/categories/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/"/>
+    
+    
+    <category term="计算机基础" scheme="http://example.com/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>计算机网络</title>
+    <link href="http://example.com/2022/01/17/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/"/>
+    <id>http://example.com/2022/01/17/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/</id>
+    <published>2022-01-17T06:07:34.000Z</published>
+    <updated>2022-01-17T06:09:30.195Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;hr&gt;
+&lt;h1 id=&quot;计算机网络&quot;&gt;&lt;a href=&quot;#计算机网络&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="计算机网络" scheme="http://example.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/"/>
+    
+    
+    <category term="计算机基础" scheme="http://example.com/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Python语言</title>
     <link href="http://example.com/2022/01/17/Python%E8%AF%AD%E8%A8%80/"/>
     <id>http://example.com/2022/01/17/Python%E8%AF%AD%E8%A8%80/</id>
     <published>2022-01-17T06:00:22.000Z</published>
-    <updated>2022-01-17T06:01:15.973Z</updated>
+    <updated>2022-01-17T06:06:21.477Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h1 id=&quot;Python语言&quot;&gt;&lt;a href=&quot;#Python语言&quot; class=&quot;headerlink&quot;</summary>
+    <summary type="html">&lt;hr&gt;
+&lt;h1 id=&quot;Python语言&quot;&gt;&lt;a href=&quot;#Python语言&quot; class=&quot;headerlink&quot;</summary>
         
       
     
