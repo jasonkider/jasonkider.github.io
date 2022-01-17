@@ -54,16 +54,16 @@
     
     
     <entry>
-      <title>Java错题本</title>
-      <link href="/2022/01/04/Java%E9%94%99%E9%A2%98%E6%9C%AC/"/>
-      <url>/2022/01/04/Java%E9%94%99%E9%A2%98%E6%9C%AC/</url>
+      <title>Java习题集</title>
+      <link href="/2022/01/04/Java%E4%B9%A0%E9%A2%98%E9%9B%86/"/>
+      <url>/2022/01/04/Java%E4%B9%A0%E9%A2%98%E9%9B%86/</url>
       
-        <content type="html"><![CDATA[<h1 id="Java错题本"><a href="#Java错题本" class="headerlink" title="Java错题本"></a>Java错题本</h1><h2 id="1-以下语句输出的结果是（）"><a href="#1-以下语句输出的结果是（）" class="headerlink" title="1.以下语句输出的结果是（）"></a>1.以下语句输出的结果是（）</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">int</span> value;</span><br><span class="line">value = <span class="number">1</span>;</span><br><span class="line">System.out.print(value);</span><br><span class="line">System.out.print(value++);</span><br><span class="line">System.out.print(value);</span><br></pre></td></tr></table></figure><h5 id="解析："><a href="#解析：" class="headerlink" title="解析："></a>解析：</h5><p>答案：223</p><p>value++是一个函数，会返回+1之前的数值，</p><p>第三次打印value为+1之后的值。</p><h2 id="2-下列程序输出的结果是（）"><a href="#2-下列程序输出的结果是（）" class="headerlink" title="2.下列程序输出的结果是（）"></a>2.下列程序输出的结果是（）</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Print</span></span>&#123;</span><br><span class="line"><span class="function"><span class="keyword">static</span> <span class="keyword">boolean</span> <span class="title">out</span><span class="params">(<span class="keyword">char</span> c)</span></span>&#123;</span><br><span class="line">System.out.print(c);</span><br><span class="line"><span class="keyword">return</span> <span class="keyword">true</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] argv)</span></span>&#123;</span><br><span class="line"><span class="keyword">int</span> i = <span class="number">0</span>;</span><br><span class="line"><span class="keyword">for</span>(out(<span class="string">&#x27;A&#x27;</span>);out(<span class="string">&#x27;B&#x27;</span>) &amp;&amp; (i&lt;<span class="number">2</span>);out(<span class="string">&#x27;C&#x27;</span>))&#123;</span><br><span class="line">i++;</span><br><span class="line">out(<span class="string">&#x27;D&#x27;</span>);</span><br><span class="line">&#125;</span><br><span class="line">&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h5 id="解析：-1"><a href="#解析：-1" class="headerlink" title="解析："></a>解析：</h5><p>答案：ABDCBDCB</p><p>本题考查for循环的执行顺序 , for( ① ; ② ; ④ ){ ③ }又三部分组成，执行顺序①-&gt;②-&gt;③-&gt;④ ，其中①只执行一次，②③④ 执行多次。</p><h2 id="3-变量名命名规则"><a href="#3-变量名命名规则" class="headerlink" title="3.变量名命名规则"></a>3.变量名命名规则</h2><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">标识符可以包括这<span class="code">``4`</span>`种字符：字母、下划线、$、数字；开头不能是数字；不能是关键字</span><br></pre></td></tr></table></figure>]]></content>
+        <content type="html"><![CDATA[<h1 id="Java习题集"><a href="#Java习题集" class="headerlink" title="Java习题集"></a>Java习题集</h1><h2 id="1-以下语句输出的结果是（）"><a href="#1-以下语句输出的结果是（）" class="headerlink" title="1.以下语句输出的结果是（）"></a>1.以下语句输出的结果是（）</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">int</span> value;</span><br><span class="line">value = <span class="number">1</span>;</span><br><span class="line">System.out.print(value);</span><br><span class="line">System.out.print(value++);</span><br><span class="line">System.out.print(value);</span><br></pre></td></tr></table></figure><h5 id="解析："><a href="#解析：" class="headerlink" title="解析："></a>解析：</h5><p>答案：223</p><p>value++是一个函数，会返回+1之前的数值，</p><p>第三次打印value为+1之后的值。</p><h2 id="2-下列程序输出的结果是（）"><a href="#2-下列程序输出的结果是（）" class="headerlink" title="2.下列程序输出的结果是（）"></a>2.下列程序输出的结果是（）</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Print</span></span>&#123;</span><br><span class="line"><span class="function"><span class="keyword">static</span> <span class="keyword">boolean</span> <span class="title">out</span><span class="params">(<span class="keyword">char</span> c)</span></span>&#123;</span><br><span class="line">System.out.print(c);</span><br><span class="line"><span class="keyword">return</span> <span class="keyword">true</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] argv)</span></span>&#123;</span><br><span class="line"><span class="keyword">int</span> i = <span class="number">0</span>;</span><br><span class="line"><span class="keyword">for</span>(out(<span class="string">&#x27;A&#x27;</span>);out(<span class="string">&#x27;B&#x27;</span>) &amp;&amp; (i&lt;<span class="number">2</span>);out(<span class="string">&#x27;C&#x27;</span>))&#123;</span><br><span class="line">i++;</span><br><span class="line">out(<span class="string">&#x27;D&#x27;</span>);</span><br><span class="line">&#125;</span><br><span class="line">&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h5 id="解析：-1"><a href="#解析：-1" class="headerlink" title="解析："></a>解析：</h5><p>答案：ABDCBDCB</p><p>本题考查for循环的执行顺序 , for( ① ; ② ; ④ ){ ③ }又三部分组成，执行顺序①-&gt;②-&gt;③-&gt;④ ，其中①只执行一次，②③④ 执行多次。</p><h2 id="3-变量名命名规则"><a href="#3-变量名命名规则" class="headerlink" title="3.变量名命名规则"></a>3.变量名命名规则</h2><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">标识符可以包括这<span class="code">``4`</span>`种字符：字母、下划线、$、数字；开头不能是数字；不能是关键字</span><br></pre></td></tr></table></figure>]]></content>
       
       
       <categories>
           
-          <category> Java错题本 </category>
+          <category> Java习题集 </category>
           
       </categories>
       
@@ -129,23 +129,23 @@
     
     
     <entry>
-      <title>java学习笔记</title>
-      <link href="/2021/12/29/java%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-      <url>/2021/12/29/java%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
+      <title>java语言</title>
+      <link href="/2021/12/29/java%E8%AF%AD%E8%A8%80/"/>
+      <url>/2021/12/29/java%E8%AF%AD%E8%A8%80/</url>
       
-        <content type="html"><![CDATA[<h1 id="JavaSE"><a href="#JavaSE" class="headerlink" title="JavaSE"></a>JavaSE</h1><h2 id="public、protected、default、private区别"><a href="#public、protected、default、private区别" class="headerlink" title="public、protected、default、private区别"></a>public、protected、default、private区别</h2><pre><code class="mark"></code></pre>]]></content>
+        <content type="html"><![CDATA[<h1 id="Java语言"><a href="#Java语言" class="headerlink" title="Java语言"></a>Java语言</h1><h2 id="Java基础"><a href="#Java基础" class="headerlink" title="Java基础"></a>Java基础</h2><h2 id="JavaSe"><a href="#JavaSe" class="headerlink" title="JavaSe"></a>JavaSe</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"></span><br></pre></td></tr></table></figure>]]></content>
       
       
       <categories>
           
-          <category> java学习笔记 </category>
+          <category> java语言 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> java </tag>
+            <tag> Java </tag>
             
         </tags>
       
