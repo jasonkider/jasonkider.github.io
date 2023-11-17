@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2023-04-14T14:46:54.303Z</updated>
+  <updated>2023-11-15T08:38:02.412Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Typora常用快捷键</title>
+    <link href="http://example.com/2023/11/15/Typora%E5%B8%B8%E7%94%A8%E5%BF%AB%E6%8D%B7%E9%94%AE/"/>
+    <id>http://example.com/2023/11/15/Typora%E5%B8%B8%E7%94%A8%E5%BF%AB%E6%8D%B7%E9%94%AE/</id>
+    <published>2023-11-15T08:33:23.000Z</published>
+    <updated>2023-11-15T08:38:02.412Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;Typora常用快捷键&quot;&gt;&lt;a href=&quot;#Typora常用快捷键&quot; class=&quot;headerlink&quot; title=&quot;Typora常用快捷键&quot;&gt;&lt;/a&gt;Typora常用快捷键&lt;/h1&gt;&lt;h2 id=&quot;菜单栏&quot;&gt;&lt;a href=&quot;#菜单栏&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Typora常用快捷键键" scheme="http://example.com/categories/Typora%E5%B8%B8%E7%94%A8%E5%BF%AB%E6%8D%B7%E9%94%AE%E9%94%AE/"/>
+    
+    
+    <category term="markdown" scheme="http://example.com/tags/markdown/"/>
+    
+  </entry>
   
   <entry>
     <title>Linux 学习路线</title>
@@ -353,7 +378,7 @@
     <link href="http://example.com/2021/12/29/markdown%E8%AF%AD%E6%B3%95/"/>
     <id>http://example.com/2021/12/29/markdown%E8%AF%AD%E6%B3%95/</id>
     <published>2021-12-29T09:39:37.000Z</published>
-    <updated>2023-11-15T07:12:28.041Z</updated>
+    <updated>2023-11-15T08:36:08.826Z</updated>
     
     
       
