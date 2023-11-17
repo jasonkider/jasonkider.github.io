@@ -11,7 +11,7 @@
   
   <title>
     
-      archive_a: 2021 
+      Git 
       
       
       |
@@ -106,217 +106,127 @@
 
 
       <div class="flex-container">
-        <!-- 归档页，展示本站所有文章，按照年份降序归类，url形式：https://yoursite/archives/ -->
+        <!-- 文章详情页，展示文章具体内容，url形式：https://yoursite/文章标题/ -->
+<!-- 同时为「标签tag」，「朋友friend」，「分类categories」，「关于about」页面的承载页面，具体展示取决于page.type -->
 
-<!-- last: 按年份把文章分组，当前遍历到的年份 -->
-<!-- now: 当前遍历到的文章的发布年份 -->
+<!-- LaTex Display -->
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+</script>
+<script>
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']]
+  }
+};
+</script>
 
-<div class="container archives">
-  <div class="post-list">
-    
-        <!-- 后续文章的发布年份呈现 -->
-        <div class="content-title">
-          <h2>
-            <span>2023</span>
-          </h2>
+
+
+  
+
+  
+
+  
+
+  
+  <!-- 文章内容页 url形式：https://yoursite/文章标题/ -->
+  <div class="container post-details" id="post-details">
+    <div class="post-content">
+      <div class="post-title">Git</div>
+      <div class="post-attach">
+        <span class="post-pubtime">
+          <i class="iconfont icon-updatetime" title="更新时间"></i>
+          2023-11-16 09:33:23
+        </span>
+        
+              <span class="post-tags">
+                <i class="iconfont icon-tags" title="タグ"></i>
+                
+                <span class="span--tag">
+                  <a href="/tags/%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6%E7%B3%BB%E7%BB%9F/" title="版本控制系统">
+                    <b>#</b> 版本控制系统
+                  </a>
+                </span>
+                
+              </span>
+          
+      </div>
+      <div class="markdown-body">
+        <hr>
+<hr>
+<h1 id="Git"><a href="#Git" class="headerlink" title="Git"></a>Git</h1><h2 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h2><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="quote">&gt; 伴随linux产生，C语言开发，分布式版本控制系统(svn集中式)</span></span><br><span class="line"><span class="quote">&gt; 组成：工作区+版本库  版本库包含暂存区（stage）与本地库  </span></span><br><span class="line"><span class="quote">&gt; 流程：工作区-&gt;暂存区-&gt;本地库-&gt;远程库</span></span><br><span class="line"></span><br><span class="line"><span class="bullet">1.</span> 集中式 一个中央数据库+多台电脑 修改需要每次拷贝和推送 时间长</span><br><span class="line"><span class="bullet">2.</span> 分布式 多台电脑+一台作为处理器 修改只需推送修改的部分 时间短</span><br></pre></td></tr></table></figure>
+
+<h2 id="命令"><a href="#命令" class="headerlink" title="命令"></a>命令</h2><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line"><span class="bullet">-</span> git init                                创建git仓库</span><br><span class="line"><span class="bullet">-</span> git add &lt;文件名.&gt;          			    推送到暂存区</span><br><span class="line"><span class="bullet">-</span> git add .								  推送当前文件夹到暂存区</span><br><span class="line"><span class="bullet">-</span> git commit -m &quot;日志&quot;                     推送到版本库</span><br><span class="line"><span class="bullet">-</span> git push -u origin &lt;分支名&gt;              本地分支推送远程并关联分支</span><br><span class="line"><span class="bullet">-</span> git push					              推送</span><br><span class="line"><span class="bullet">-</span> git status							  状态查看</span><br><span class="line"><span class="bullet">-</span> git log                                 日志查询</span><br><span class="line"><span class="bullet">-</span> git log pretty=oneline                  日志查询简版</span><br><span class="line"><span class="bullet">-</span> git reflog							  查看操作日志</span><br><span class="line"><span class="bullet">-</span> git diff HEAD -- &lt;文件名.&gt;               工作区与暂存区文件对比</span><br><span class="line"><span class="bullet">-</span> git remote origin &lt;远程地址&gt; 			   添加远程仓库</span><br><span class="line"><span class="bullet">-</span> git rm &lt;文件名.&gt; 						删除版本库文件</span><br><span class="line"><span class="bullet">-</span> git branch &lt;分支名&gt;						创建分支</span><br><span class="line"><span class="bullet">-</span> git checkout branch					  切换分支</span><br><span class="line"><span class="bullet">-</span> git checkout -b						  创建新分支并切换</span><br><span class="line"><span class="bullet">-</span> git checkout -- &lt;文件名.&gt;				回退工作区内容</span><br><span class="line"><span class="bullet">-</span> git reset --hard &lt;文件名.&gt;				暂存区回退工作区</span><br><span class="line"><span class="bullet">-</span> git reset --hard <span class="language-xml"><span class="tag">&lt;<span class="name">commit_id</span>&gt;</span></span>			  回退版本</span><br><span class="line"><span class="bullet">-</span> git reset --hard HEAD^				  回退上一版 HEAD-当前分支 ^^-上上版</span><br><span class="line"><span class="bullet">-</span> git clone &lt;远程地址&gt;					   克隆远程仓库</span><br><span class="line"><span class="bullet">-</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+
+
+
+      </div>
+      
+        <div class="prev-or-next">
+          <div class="post-foot-next">
+            
+              <a href="/2023/11/15/Typora%E5%B8%B8%E7%94%A8%E5%BF%AB%E6%8D%B7%E9%94%AE/" target="_self">
+                <i class="iconfont icon-chevronleft"></i>
+                <span>戻る</span>
+              </a>
+            
+          </div>
+          <div class="post-attach">
+            <span class="post-pubtime">
+              <i class="iconfont icon-updatetime" title="更新时间"></i>
+              2023-11-16 09:33:23
+            </span>
+            
+                  <span class="post-tags">
+                    <i class="iconfont icon-tags" title="タグ"></i>
+                    
+                    <span class="span--tag">
+                      <a href="/tags/%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6%E7%B3%BB%E7%BB%9F/" title="版本控制系统">
+                        <b>#</b> 版本控制系统
+                      </a>
+                    </span>
+                    
+                  </span>
+              
+          </div>
+          <div class="post-foot-prev">
+            
+          </div>
         </div>
       
-      <div class="post-item" title="Git">
-        <div class="time-m-d">11-16</div>
-        <div class="title">
-          <a href="/2023/11/16/Git/">
-            <span>Git</span>
-          </a>
-        </div>
-      </div>
+    </div>
     
-      <div class="post-item" title="Typora常用快捷键">
-        <div class="time-m-d">11-15</div>
-        <div class="title">
-          <a href="/2023/11/15/Typora%E5%B8%B8%E7%94%A8%E5%BF%AB%E6%8D%B7%E9%94%AE/">
-            <span>Typora常用快捷键</span>
-          </a>
-        </div>
-      </div>
+  <div id="btn-catalog" class="btn-catalog">
+    <i class="iconfont icon-catalog"></i>
+  </div>
+  <div class="post-catalog hidden" id="catalog">
+    <div class="title">リスト</div>
+    <div class="catalog-content">
+      <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#Git"><span class="toc-text">Git</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BB%8B%E7%BB%8D"><span class="toc-text">介绍</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%91%BD%E4%BB%A4"><span class="toc-text">命令</span></a></li></ol></li></ol>
+    </div>
+  </div>
+
+  
+<script src="/js/catalog.js"></script>
+
+
+
+
     
-      <div class="post-item" title="Linux 学习路线">
-        <div class="time-m-d">04-14</div>
-        <div class="title">
-          <a href="/2023/04/14/Linux%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF/">
-            <span>Linux 学习路线</span>
-          </a>
-        </div>
-      </div>
-    
-      <div class="post-item" title="Java 学习路线">
-        <div class="time-m-d">04-14</div>
-        <div class="title">
-          <a href="/2023/04/14/Java%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF/">
-            <span>Java 学习路线</span>
-          </a>
-        </div>
-      </div>
-    
-      <div class="post-item" title="Python 学习路线">
-        <div class="time-m-d">04-14</div>
-        <div class="title">
-          <a href="/2023/04/14/Python%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF/">
-            <span>Python 学习路线</span>
-          </a>
-        </div>
-      </div>
-    
-      <div class="post-item" title="前端学习路线">
-        <div class="time-m-d">04-14</div>
-        <div class="title">
-          <a href="/2023/04/14/%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF/">
-            <span>前端学习路线</span>
-          </a>
-        </div>
-      </div>
-    
-        <!-- 后续文章的发布年份呈现 -->
-        <div class="content-title">
-          <h2>
-            <span>2022</span>
-          </h2>
-        </div>
-      
-      <div class="post-item" title="日语">
-        <div class="time-m-d">01-17</div>
-        <div class="title">
-          <a href="/2022/01/17/%E6%97%A5%E8%AF%AD/">
-            <span>日语</span>
-          </a>
-        </div>
-      </div>
-    
-      <div class="post-item" title="英语">
-        <div class="time-m-d">01-17</div>
-        <div class="title">
-          <a href="/2022/01/17/%E8%8B%B1%E8%AF%AD/">
-            <span>英语</span>
-          </a>
-        </div>
-      </div>
-    
-      <div class="post-item" title="计算机组成原理">
-        <div class="time-m-d">01-17</div>
-        <div class="title">
-          <a href="/2022/01/17/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/">
-            <span>计算机组成原理</span>
-          </a>
-        </div>
-      </div>
-    
-      <div class="post-item" title="操作系统">
-        <div class="time-m-d">01-17</div>
-        <div class="title">
-          <a href="/2022/01/17/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/">
-            <span>操作系统</span>
-          </a>
-        </div>
-      </div>
-    
-      <div class="post-item" title="计算机网络">
-        <div class="time-m-d">01-17</div>
-        <div class="title">
-          <a href="/2022/01/17/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/">
-            <span>计算机网络</span>
-          </a>
-        </div>
-      </div>
-    
-      <div class="post-item" title="Python语言">
-        <div class="time-m-d">01-17</div>
-        <div class="title">
-          <a href="/2022/01/17/Python%E8%AF%AD%E8%A8%80/">
-            <span>Python语言</span>
-          </a>
-        </div>
-      </div>
-    
-      <div class="post-item" title="C语言">
-        <div class="time-m-d">01-16</div>
-        <div class="title">
-          <a href="/2022/01/16/C%E8%AF%AD%E8%A8%80/">
-            <span>C语言</span>
-          </a>
-        </div>
-      </div>
-    
-      <div class="post-item" title="数据结构">
-        <div class="time-m-d">01-16</div>
-        <div class="title">
-          <a href="/2022/01/16/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/">
-            <span>数据结构</span>
-          </a>
-        </div>
-      </div>
-    
-      <div class="post-item" title="Java习题集">
-        <div class="time-m-d">01-04</div>
-        <div class="title">
-          <a href="/2022/01/04/Java%E4%B9%A0%E9%A2%98%E9%9B%86/">
-            <span>Java习题集</span>
-          </a>
-        </div>
-      </div>
-    
-        <!-- 后续文章的发布年份呈现 -->
-        <div class="content-title">
-          <h2>
-            <span>2021</span>
-          </h2>
-        </div>
-      
-      <div class="post-item" title="markdown语法">
-        <div class="time-m-d">12-29</div>
-        <div class="title">
-          <a href="/2021/12/29/markdown%E8%AF%AD%E6%B3%95/">
-            <span>markdown语法</span>
-          </a>
-        </div>
-      </div>
-    
-      <div class="post-item" title="java语言">
-        <div class="time-m-d">12-29</div>
-        <div class="title">
-          <a href="/2021/12/29/java%E8%AF%AD%E8%A8%80/">
-            <span>java语言</span>
-          </a>
-        </div>
-      </div>
-    
-      <div class="post-item" title="常用IDE快捷键(windows)">
-        <div class="time-m-d">12-27</div>
-        <div class="title">
-          <a href="/2021/12/27/%E5%B8%B8%E7%94%A8IDE%E5%BF%AB%E6%8D%B7%E9%94%AE/">
-            <span>常用IDE快捷键(windows)</span>
-          </a>
-        </div>
-      </div>
-    
-      <div class="post-item" title="hexo+github博客构建">
-        <div class="time-m-d">12-25</div>
-        <div class="title">
-          <a href="/2021/12/25/hexo%E5%8D%9A%E5%AE%A2%E6%9E%84%E5%BB%BA/">
-            <span>hexo+github博客构建</span>
-          </a>
-        </div>
-      </div>
-    
-      <div class="post-item" title="Hello World">
-        <div class="time-m-d">12-25</div>
-        <div class="title">
-          <a href="/2021/12/25/hello-world/">
-            <span>Hello World</span>
-          </a>
-        </div>
+      <div class="comments-container">
+        
+
+
+
+
+
       </div>
     
   </div>
-</div>
+
 
         <div class="footer">
   <div class="social">
@@ -603,6 +513,24 @@
 
 
         
+  
+    <div class="share-icon tools-bar-item">
+      <a href="javascript: void(0)" id="share-icon">
+        <i class="iconfont iconshare"></i>
+      </a>
+      <div class="share-content hidden">
+        
+          <a class="share-item" href="https://twitter.com/intent/tweet?text=' + Git + '&url=' + http%3A%2F%2Fexample.com%2F2023%2F11%2F16%2FGit%2F + '" target="_blank" title="Twitter">
+            <i class="iconfont icon-twitter"></i>
+          </a>
+        
+        
+          <a class="share-item" href="https://www.facebook.com/sharer.php?u=http://example.com/2023/11/16/Git/" target="_blank" title="Facebook">
+            <i class="iconfont icon-facebooksquare"></i>
+          </a>
+        
+      </div>
+    </div>
   
   
 <script src="/js/shares.js"></script>
